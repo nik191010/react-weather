@@ -1,0 +1,101 @@
+@mixin _3840m {
+  @media (min-width: 3840px) {
+    @content;
+  }
+}
+
+@mixin _2560m {
+  @media (min-width: 2560px) {
+    @content;
+  }
+}
+
+@mixin _1560 {
+  @media (max-width: 1560px) {
+    @content;
+  }
+}
+
+@mixin _1440 {
+  @media (max-width: 1440px) {
+    @content;
+  }
+}
+
+@mixin _1220 {
+  @media (max-width: 1220px) {
+    @content;
+  }
+}
+
+@mixin _1040 {
+  @media (max-width: 1040px) {
+    @content;
+  }
+}
+
+@mixin _991 {
+  @media (max-width: 991px) {
+    @content;
+  }
+}
+
+@mixin _960 {
+  @media (max-width: 960px) {
+    @content;
+  }
+}
+
+@mixin _767 {
+  @media (max-width: 767px) {
+    @content;
+  }
+}
+
+@mixin _620 {
+  @media (max-width: 620px) {
+    @content;
+  }
+}
+
+@mixin _510 {
+  @media (max-width: 510px) {
+    @content;
+  }
+}
+
+@mixin _479 {
+  @media (max-width: 479px) {
+    @content;
+  }
+}
+
+@mixin _440 {
+  @media (max-width: 440px) {
+    @content;
+  }
+}
+
+@mixin _360 {
+  @media (max-width: 360px) {
+    @content;
+  }
+}
+
+@mixin _320 {
+  @media (max-width: 320px) {
+    @content;
+  }
+}
+
+@mixin _ipadPro {
+  @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+    @content;
+  }
+}
+
+@mixin _ipadMini {
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    @content;
+  }
+}

@@ -1,0 +1,87 @@
+@import '../../scss/variables';
+@import '../../scss/container';
+@import '../../scss/media';
+@import '../../scss/reset';
+
+.search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 100px;
+  margin-bottom: 80px;
+  @include _2560m {
+    padding-top: 0;
+  }
+  @include _479 {
+    padding-top: 50px;
+  }
+  @include _320 {
+    margin-bottom: 40px;
+  }
+  &__input {
+    background: $light-gray;
+    border-radius: 15px;
+    height: 46px;
+    width: 100%;
+    padding-left: 27px;
+    padding-right: 50px;
+    line-height: 22px;
+    color: $black;
+    border: 1px solid transparent;
+    -webkit-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+    &:focus {
+      color: #000;
+      background: #fff;
+      outline: 0;
+      border: 1px solid $dark-gray;
+    }
+    &::-webkit-input-placeholder {
+      color: $medium-gray;
+    }
+    &::-moz-placeholder {
+      color: $medium-gray;
+    }
+    &:-ms-input-placeholder {
+      color: $medium-gray;
+    }
+    &::-ms-input-placeholder {
+      color: $medium-gray;
+    }
+    &::placeholder {
+      color: $medium-gray;
+    }
+  }
+
+  &__button {
+    background: transparent;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-left: -50px;
+    padding: 0 20px;
+    border: 0;
+    height: 46px;
+    cursor: pointer;
+    &:hover {
+      svg {
+        path {
+          fill: $yellow;
+        }
+      }
+    }
+    svg {
+      path {
+        @include mt(0.5s);
+        fill: $blue;
+      }
+    }
+  }
+}

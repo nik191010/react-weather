@@ -1,0 +1,15 @@
+// COLORS
+$white: #fff;
+$blue: #9cd5f2;
+$light-gray: #fdfcfc;
+$medium-gray: #c4c4c4;
+$dark-gray: #9a9a9a;
+$black: #2c2c2c;
+$yellow: #ffac33;
+$black-bg-dm: #121212;
+$grey-text-dm: #b3b3b3;
+
+// TRANSITION
+@mixin mt($time) {
+  transition: all $time ease;
+}
