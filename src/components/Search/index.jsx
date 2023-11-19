@@ -32,7 +32,7 @@ const Search = ({ location, getCityName, getCityCoords, searchLocation, submitLo
 
   // Loops through an object with the list of cities to get the coordinates
   const searchCityObject = (nameKey, myArray) => {
-    for (let i = 0; i < myArray.length; i++) {
+    for (let i = 0; i < myArray?.length; i++) {
       if (myArray[i].place_name === nameKey) {
         return myArray[i];
       }
