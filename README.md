@@ -5,5 +5,5 @@ A weather application is an online platform that allows users to check a local w
 👉 Live Demo: [Live Demo](https://react-weather-jet-phi.vercel.app)
 
 # Build with:
-» Sass / Scss
+» Sass / Scss \
 » React JS
