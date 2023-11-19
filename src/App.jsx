@@ -28,6 +28,7 @@ function App() {
       try {
         const response = await axios('https://ipinfo.io/json?token=dfca699a151841');
         const data = await response.data;
+        console.log(data);
         locationInfo = data.loc;
       } catch (error) {
         alert('Failed to get latitude/longitude');
